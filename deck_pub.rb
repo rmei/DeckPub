@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'deck'
+require './deck'
 
 get '/fetch' do # gettin stuffs fro dropbox
   "<html><head/><body>Halo, whirled.</body></html>"
