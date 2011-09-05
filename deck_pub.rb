@@ -1,6 +1,8 @@
 require 'sinatra'
+require 'deck'
 
-post '/fetch' do # gettin stuffs fro dropbox
+get '/fetch' do # gettin stuffs fro dropbox
+  "<html><head/><body>Halo, whirled.</body></html>"
 
 =begin
   commit_json = JSON.parse(CGI.unescape(params["payload"]))
